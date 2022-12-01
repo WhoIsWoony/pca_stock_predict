@@ -2,8 +2,8 @@ import FinanceDataReader as fdr
 #Read list(symbol, name) of krx300
 #Load and write the one-year closing price of each stock
 
-PATH_COMPANY_CODE = "./data/dataset_input/krx300_list.txt" #(회사명 주식코드)로 이루어진 파일
-PATH_CLOSING_PRICE_OF_1YEAR = "./data/dataset_input/krx300_cp_list.txt" #(584개의 회사에 대한 1년 개장일 248일 종가)로 이루어진 파일
+PATH_COMPANY_CODE = "./data/train/krx300_list.txt" #(회사명 주식코드)로 이루어진 파일
+PATH_CLOSING_PRICE_OF_1YEAR = "./data/train/krx300_cp_list.txt" #(584개의 회사에 대한 1년 개장일 248일 종가)로 이루어진 파일
 
 fr = open(PATH_COMPANY_CODE,'r')
 fw = open(PATH_CLOSING_PRICE_OF_1YEAR, 'w')
